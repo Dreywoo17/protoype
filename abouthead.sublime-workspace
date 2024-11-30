@@ -1,0 +1,337 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bu",
+				"button3"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"button",
+				"button3"
+			],
+			[
+				"butt",
+				"button3"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"darkgre",
+				"darkgreen"
+			],
+			[
+				"light",
+				"lightcyan"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"sea",
+				"Search"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"blue",
+				"midnightblue"
+			],
+			[
+				"white",
+				"ghostwhite"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mo",
+				"mod"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"slate",
+				"slategrey"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"L",
+				"Lastname"
+			],
+			[
+				"Qi",
+				"Question2"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-flex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/MIRA BETH/OneDrive/Desktop/ProjectB/aboutus.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/prototype.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/ProjectB/homepage.html",
+		"/C/Users/MIRA BETH/AppData/Local/Temp/339e17d5-1228-4e28-a01c-683fde757fc4_ProjectA-aa3102ca720b782ec376956e2fcd78fe8fcff208.zip.fc4/ProjectA-aa3102ca720b782ec376956e2fcd78fe8fcff208/README.md",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/viewadmin.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/admin.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/addappoint.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/aboutus.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/login.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/viewappoint.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/act3.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/MidtermBonggoActivity3.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/DamondamonCalc-1.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/demo3.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/Main.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/DemoPrompt.html",
+		"/C/Users/MIRA BETH/Downloads/Activity5.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/Activity4.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/Activity5.html",
+		"/C/Users/MIRA BETH/Downloads/Bonggo.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/Bonggo_Andriemer_Table.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/demo.table.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/demo.html",
+		"/C/Users/MIRA BETH/Downloads/try.html",
+		"/C/Users/MIRA BETH/OneDrive/Desktop/Bonggo.html",
+		"/C/Users/MIRA BETH/Downloads/Table.html",
+		"/C/Users/MIRA BETH/Downloads/Demo.html"
+	],
+	"find":
+	{
+		"height": 23.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.3333333333
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "abouthead.sublime-project",
+	"replace":
+	{
+		"height": 42.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

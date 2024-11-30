@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Computer Studies Portfolio</title>
+	<style>
+		
+		body {
+			
+
+			background-repeat: revert-layer;
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background-color: darkred;
+			color: lightgrey;	
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+	
+		
+
+        button {
+            padding: 10px 15px;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .shortcut-buttons {
+
+            background-color: maroon;
+            padding: 20px;
+            color: red;
+            width: 100%;
+            position: absolute;
+            top: 10px;
+            height: 50px;
+            right: 0px;
+            display: flex;
+            margin-top: -1%;
+        
+        }
+
+         
+
+         nav a {
+
+            font-size: 20px;
+            margin-left: 15%; 
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: inline-block;
+        }
+
+
+
+        .button1 {
+            position: absolute;
+            margin-left: 30%;
+        }
+
+        .button2 {
+            position: absolute;
+            margin-left: 20%;
+        }
+
+         .button1, .button2, .button3 {
+            margin-top: 0.50%;
+        }
+
+        .button3 {
+            position: absolute;
+            margin-left: 8%;
+        }
+
+        .logo {
+            margin-left: 5%;
+            height: 100px;
+            width: 100px;
+            margin-top: -2%;
+        }
+		
+		#search {
+            border-radius: 10px;
+            margin-left: 300%;
+            width: 100%;
+            height: 25px;
+            margin-top: 9%;
+        }
+        .button1:hover, .button2:hover, .button3:hover {
+
+          text-decoration: underline;
+         }   
+           	
+
+
+
+
+
+
+
+
+
+
+		
+		.about {
+			background-color: maroon;
+			width: 80%;
+			max-width: 1000px;
+			margin: 20px auto;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		.about img {
+			width: 250px;
+			height: 250px;
+			border-radius: 10px;
+			margin-right: 20px;
+		}
+
+		.info {
+			flex: 1;
+			text-align: justify;
+		}
+
+		
+		.gallery {
+			width: 80%;
+			max-width: 1000px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: maroon;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		.gtitle {
+			text-align: center;
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.gallery1 {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			justify-content: center;
+		}
+
+		.gallery-item {
+			border-radius: 8px;
+			width: calc(25% - 10px);
+		
+		}
+
+		.gallery-item img {
+			width: 100%;
+			height: 150px;
+		}
+
+		.gallery-item p {
+			margin: 1opx 0;
+			font-size: 14px;
+			margin-left: 10px;
+		}
+
+		.gmap {
+			height: 300px;
+			width: 70%;
+			margin-left: -0%;
+			display: inline-flex;
+			background-color: maroon;
+			margin-top: 0%;
+			border-radius: 10px;
+		}
+
+		.mapper {
+			padding: 10px;
+			margin-top: 3%;
+			margin-left: 2%;
+			
+		}
+		.ytvid{
+			padding: 10px;
+			margin-top: 3%;
+			margin-left: 15px;
+		}
+
+		
+		.projects {
+			width: 80%;
+			max-width: 1000px;
+			margin: 20px auto;
+			background-color: maroon;
+			padding: 20px;
+			border-radius: 10px;
+			text-align: center;
+		}
+
+		
+		.projects img {
+			width: 100%;
+			max-height: 500px;
+			border-radius: 10px;
+			object-fit: cover;
+		}
+
+		
+		.socnet {
+			width: 80%;
+			max-width: 1000px;
+			margin: 20px auto;
+			background-color: maroon;
+			padding: 20px;
+			 : 10px;
+			text-align: center;
+		}
+
+		.socnet i {
+			font-size: 20px;
+			margin: 0 10px;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	
+  
+
+   <div class="shortcut-buttons">
+        <img class="logo" src="Alogo1.png">
+        <h3>Appointment Scheduling System</h3>
+        <nav>
+         <a class="button3" href="admin.html">Admin Panel</a>
+         <a class="button2" href="aboutus.html">About Us</a>
+         <a class="button1" href="login.html">Log in</a>
+        </nav>
+        <search>
+         <form>
+            <input type="Search" name="fsrch" id="search" placeholder="Search">
+         </form>
+    </search>
+    </div>
+   
+    <br><br><br><br><br>
+	
+    <div class="about">
+		<img src="abouthead.jpg">
+		<div class="info">
+			<h2>About Us</h2>
+			<p>Appointment scheduling system is a digital tool designed to streamline the process of managing and organizing appointments. It provides a user-friendly interface for clients or users to book, reschedule, or cancel appointments while displaying real-time availability to prevent overbooking or conflicts. Often integrated with digital calendars like Google Calendar or Outlook, these systems ensure seamless scheduling and offer automated notifications or reminders via email or SMS. They may also include features such as role-based user access, customizable appointment durations, analytics for tracking trends, and payment processing for paid services. Appointment scheduling systems are widely used across industries, including healthcare for patient consultations, education for scheduling teacher-student meetings or counseling sessions, business services for client appointments, and personal care sectors like salons or fitness centers. By automating administrative tasks and improving communication, these systems save time, reduce errors, and enhance overall user convenience and satisfaction.
+			</p>
+		</div>
+    </div>
+
+
+	<div class="gallery">
+		<h2 class="gtitle">Gallery</h2>
+		<div class="gallery1">
+			<div class="gallery-item">
+				<img src="ph1.webp" alt="Gallery Image">
+				<p>Amelia App</p>
+			</div>
+			<div class="gallery-item">
+				<img src="ph1.jpg" >
+				<p>Portland</p>
+			</div>
+			<div class="gallery-item">
+				<img src="ph2.jpg" alt="Gallery Image">
+				<p>Denz for Nilon</p>
+			</div>
+			<div class="gallery-item">
+				<img src="ph3.jpg" alt="Gallery Image">
+				<p>Denz for Nilon</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="gmap">
+		<div class="mapper"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13273.103369157103!2d124.63969262941603!3d8.487980185538213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2e7ff6d2ec9%3A0x180566d5585d5301!2sCapitol%20University!5e0!3m2!1sen!2sph!4v1731696837168!5m2!1sen!2sph" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a href="https://sprunkin.com">Sprunki Mods</a></div><style>.mapouter{position:relative;text-align:right;width:400px;height:200px;}.gmap_canvas {overflow:hidden;background:none!important;width:400px;height:200px;}.gmap_iframe {width:400px!important;height:200px!important;}</style></div>
+
+		<div class="ytvid">
+		<iframe width="400" height="200" src="https://www.youtube.com/embed/F4fbwKV9dBU?si=xX67hAbJIDsQaoUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+	</div>		
+
+	
+	<div class="projects">
+		
+		<div class="slideshow-container">
+			<img src="ph1.jpg"  class="slide">
+			<img src="ph2.jpg" class="slide">
+			<img src="ph3.jpg" class="slide">
+			<!-- Add more images as needed -->
+
+			
+		</div>
+	
+	</div>
+
+
+	
+	<div class="socnet">
+		<h2>Connect with us</h2>
+		<i class="fa-brands fa-facebook"></i> Andrie Salcedo
+		<i class="fa-brands fa-twitter"></i> @Dreywoo17
+		<i class="fa-brands fa-linkedin"></i> Andrie Bonggo
+		<i class="fa-brands fa-instagram"></i> @_dreiitaro
+	</div>
+
+	<script>
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			let slides = document.getElementsByClassName("slide");
+			for (let i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 2000); // Change image every 3 seconds
+		}
+
+		function plusSlides(n) {
+			let slides = document.getElementsByClassName("slide");
+			slideIndex += n;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			if (slideIndex < 1) { slideIndex = slides.length }
+			for (let i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slides[slideIndex - 1].style.display = "block";
+		}
+	</script>
+
+</body>
+</html>

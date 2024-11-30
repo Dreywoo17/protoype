@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+
+
+        body {
+            background-image: url("body.jpg");
+            background-repeat: repeat-x;
+            background-size: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            float: left;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            margin-left: 5%;
+        }
+
+        .container {
+            position: absolute;
+            margin-left: 0%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            text-align: center;
+        }
+
+        .login-form {
+            margin-bottom: 20px;
+        }
+
+        .input1, .input2 {
+            background-color: white;
+            color: black
+        }
+
+         .link {
+            color: blue;
+            cursor: pointer;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .shortcut-buttons {
+
+            background-color: maroon;
+            padding: 20px;
+            color: red;
+            width: 100%;
+            position: absolute;
+            top: 10px;
+            height: 50px;
+            right: 0px;
+            display: flex;
+            margin-top: -1%;
+        
+        }
+
+         #search {
+            margin-top: 9%;
+            border-radius: 10px;
+            margin-left: 280%;
+            width: 100%;
+            height: 25px;
+        }
+
+        nav a {
+
+            font-size: 20px;
+            margin-left: 15%; 
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: inline-block;
+        }
+
+
+        .button1 {
+            position: absolute;
+            margin-left: 30%;
+        }
+
+        .button2 {
+            position: absolute;
+            margin-left: 20%;
+        }
+
+         .button1, .button2, .button3 {
+            margin-top: 0.50%;
+        }
+
+        .button3 {
+            position: absolute;
+            margin-left: 8%;
+        }
+
+         .button1:hover, .button2:hover, .button3:hover {
+
+          text-decoration: underline;
+         }   
+           
+
+        .logo {
+            margin-left: 5%;
+            height: 100px;
+            width: 100px;
+            margin-top: -2%;
+        }
+
+        .container3 {
+
+         margin-top: 10%;
+         margin-left: 0%;
+         position: absolute;
+         height: 80% ;
+         background-color: #fff;
+         padding-right: 25%;
+         border-radius: 10px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         width: 65%;
+         text-align: center;
+        }
+
+        .sched {
+
+         margin-left: 40%;
+        }
+
+        .container3 table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .container3 table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .table {
+         margin-left: 20%;
+         width: 100%;
+
+        }
+
+        .back {
+         margin-top: 3%;
+         margin-right: 85%;
+        }
+
+           
+    </style>
+</head>
+<body>
+
+     <div class="shortcut-buttons">
+        <img class="logo" src="Alogo1.png">
+        <h3>Appointment Scheduling System</h3>
+        <nav>
+         <a class="button3" href="Admin.html">Admin Panel</a>
+         <a class="button2" href="aboutus.html">About Us</a>
+         <a class="button1" href="login.html">Log in</a>
+        </nav>
+    <search>
+         <form>
+            <input type="Search" name="fsrch" id="search" placeholder="Search">
+         </form>
+    </search>
+    </div>
+
+    <div class="container3 hidden" id="view-appointments-container">
+      <form action="admin.html">
+        <h1 class="sched">Scheduled Appointments</h1>
+        <div class="table">
+         <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-12-01</td>
+                    <td>10:00 AM</td>
+                    <td>Meeting with advisor</td>
+                </tr>
+                <tr>
+                    <td>2024-12-02</td>
+                    <td>2:00 PM</td>
+                    <td>Project presentation</td>
+                </tr>
+                <tr>
+                    <td>2024-12-03</td>
+                    <td>9:00 AM</td>
+                    <td>Discussion on progress</td>
+                </tr>
+                <tr>
+                    <td>2024-12-01</td>
+                    <td>10:00 AM</td>
+                    <td>Meeting with advisor</td>
+                </tr>
+                <tr>
+                    <td>2024-12-02</td>
+                    <td>2:00 PM</td>
+                    <td>Project presentation</td>
+                </tr>
+                <tr>
+                    <td>2024-12-03</td>
+                    <td>9:00 AM</td>
+                    <td>Discussion on progress</td>
+                </tr>
+                <tr>
+                    <td>2024-12-03</td>
+                    <td>9:00 AM</td>
+                    <td>Discussion on progress</td>
+                </tr>
+
+            </tbody>
+        </table>
+     </div>
+        <button class="back" onclick="backToScheduler()">Back</button>
+    </div>
+
+        <button class="back" onclick="backToScheduler()">Back</button>
+      </form> 
+    </div>
+
+    
+     
+
+
+   
+
+   
+</body>
+</html>
